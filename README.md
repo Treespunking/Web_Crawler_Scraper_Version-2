@@ -1,4 +1,4 @@
-# AliExpress Product Scraper 
+# Scraper 
 
 A robust, production-ready web scraper to extract product data from AliExpress using **Playwright + Bright Data Web Unlocker API** to bypass anti-bot protections. Features concurrent page scraping, exponential backoff, NDJSON output, and comprehensive error handling.
 
@@ -150,14 +150,6 @@ Each line is a valid JSON object representing one product:
 
 ---
 
-## Explore Data with EDA
-
-Analyze scraped data interactively using Jupyter:
-
-```bash
-jupyter notebook EDA.ipynb
-```
-
 **Included Visualizations:**
 - Price distribution histograms
 - Top-selling products by category
@@ -173,7 +165,6 @@ Web_Crawler_Scraper/
 │
 ├── main.py                       # Main entry point (if needed)
 ├── aliexpress_products.json      # Output file (NDJSON)
-├── EDA.ipynb                     # Data analysis notebook
 ├── .env                          # Environment variables (DO NOT COMMIT)
 ├── .gitignore                    # Git ignore file
 ├── requirements.txt              # Python dependencies
