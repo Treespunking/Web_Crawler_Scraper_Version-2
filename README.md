@@ -34,8 +34,8 @@ A robust, production-ready web scraper to extract product data from AliExpress u
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/Treespunking/Web_Crawler_Scraper.git
-cd Web_Crawler_Scraper
+git clone https://github.com/Treespunking/Web_Crawler_Scraper_Version-2.git
+cd Web_Crawler_Scraper_Version-2
 ```
 
 ### 2. Set up virtual environment
