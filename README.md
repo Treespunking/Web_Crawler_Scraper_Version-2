@@ -170,7 +170,6 @@ Web_Crawler_Scraper/
 ├── requirements.txt              # Python dependencies
 │
 └── scraper/
-    ├── __init__.py
     ├── config.py                 # Configuration & environment loader
     ├── logger.py                 # Logging setup
     ├── utils.py                  # Helper functions (price cleaning, delays)
